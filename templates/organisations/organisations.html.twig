@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello OrganisationsController!{% endblock %}
+
+{% block body %}
+    <div {{ react_component('OrganisationsComponent', { organisations }) }}></div>
+{% endblock %}
